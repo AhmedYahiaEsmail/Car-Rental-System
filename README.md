@@ -10,9 +10,6 @@ This application lets users manage car records and rent cars via a menu-driven c
 - [Built With](#built-with)
 - [Project Timeline & Team](#project-timeline--team)
 - [Contribution & My Role](#contribution--my-role)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation & Usage](#installation--usage)
     
 ---
 
@@ -82,36 +79,3 @@ This module served as the entry point for the application and ensured authorized
 
 ---
 
-## Getting Started
-
-To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-
-You will need a C++ compiler installed on your system.
--   **GCC (GNU Compiler Collection):** Often included with development environments like MinGW on Windows, or readily available on Linux/macOS.
--   **An Integrated Development Environment (IDE):** Such as Visual Studio Code (with C++ extensions), Code::Blocks, or Dev-C++.
-
-### Installation & Usage
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/AhmedYahiaEsmail/Car-Rental-System.git](https://github.com/AhmedYahiaEsmail/Car-Rental-System.git)
-    ```
-2.  **Navigate to the project directory:**
-    ```bash
-    cd Car-Rental-System
-    ```
-3.  **Compile the source code:**
-    If you are using GCC:
-    ```bash
-    g++ main.cpp -o car_rental_system
-    ```
-    *(Note: Replace `main.cpp` with the actual name of your main source file if it's different. If you have multiple `.cpp` files, list them all: `g++ file1.cpp file2.cpp -o car_rental_system`)*
-4.  **Run the executable:**
-    ```bash
-    ./car_rental_system
-    ```
-    The system will launch in your console, prompting you for input to navigate through its features.
-
----
